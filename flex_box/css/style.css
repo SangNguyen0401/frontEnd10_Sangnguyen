@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    height: 80px;
+    background-color: rgb(156, 50, 156);
+    display: flex;
+}
+.right{
+  color: #fff;
+  display: flex;
+}
+
+.list{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.list-text{
+
+}
+
+.left{
+
+}
+
+.foot{
+    margin: auto;
+}
