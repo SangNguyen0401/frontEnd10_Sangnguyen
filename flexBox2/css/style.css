@@ -1,0 +1,59 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(-90deg, purple, pink);
+}
+
+.grad {
+    background-image: linear-gradient(-90deg, purple, pink);
+  }
+
+.wrapper{
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    /* margin-top: 32px; */
+    margin: auto;
+    
+    /* background-image: url('/flexBox2/img/hinh-anh-hacker.jpeg') top center / cover no-repeat; */
+}
+
+
+.img_place{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.text_place{
+    width: 700px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    border: none;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    border: none;
+}
+
+.item_list{
+    margin: 0 8px;
+    padding: 16px;
+}
+
+.item_list:hover{
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+    
+}
